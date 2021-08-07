@@ -20,9 +20,6 @@ usKO ASSIGN KR DETA HAI-->
    echo "this is the php script <br>"
    ?>     
 
-         
-
-
 <!--PHP VARIABLE RULES
  1  variable starts with the $ sign, followed by the name of the variable
  2  variable name must start with a letter or the underscore character
