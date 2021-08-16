@@ -198,7 +198,7 @@ button.bt {
     font-weight: 500;
 }
 #footer {
-    background-image: url( Images/footer.jpg);
+    background-image: url(Images/footer.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;

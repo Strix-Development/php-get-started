@@ -4,7 +4,7 @@
          <title>
              Design
          </title>
-         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="Style/style.css">
      </head>
      <body>
          <header>
