@@ -47,7 +47,7 @@
              </div>
           <div>
       </div>
+     <div class="copy">
+         <p>Copyright © 2019 Design Curtains. All Rights Reserved.</p>
+     </div>  
 </section>  
-<div class="copy">
-  <p>Copyright © 2019 Design Curtains. All Rights Reserved.</p>
-</div>  
