@@ -42,14 +42,15 @@
             </div>
         </div>
     </div>
-    <div class="footerform">
-    <form action="#" method="POST" name="footerform">
-				<input type="text"  placeholder="First Name*" name="fname" required><br>
-				<input type="text"  placeholder="Last Name*" name="lname" required><br>
-				<input type="text"  placeholder="Telephone*" name="phone" required><br>
-				<input type="email"  placeholder="Email*" name="email" required><br>
-				<textarea placeholder="Enquiry*" name="message"></textarea><br>
-                <button type="submit" class="button" name="submit">Submit</button><br>
-    </div>
+    <div class="form1">
+      <form action="#" method="POST" name="form1">
+	      <input type="text"  placeholder="First Name*" name="fname" required><br>
+	      <input type="text"  placeholder="Last Name*" name="lname" required><br>
+	      <input type="text"  placeholder="Telephone*" name="phone" required><br>
+	      <input type="email"  placeholder="Email*" name="email" required><br>
+	      <input type="Enquiry" placeholder="Enquiry*" name="message"><br><br>
+          <button type="submit" class="button" name="submit">Submit</button>
+       </form>
+  </div>
 </section>
 </html>

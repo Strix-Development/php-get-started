@@ -116,7 +116,7 @@ margin-bottom: 0px;
         color: #595959;
         margin-bottom: 0px;
 }
-section#text .container {
+#text .container {
     margin-top: 6%;
 }
 .box1 h3{
@@ -190,38 +190,17 @@ button.bt {
     padding: 10px 15px;
     margin-top: 1%;
 }
-#footer h3 {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    margin-bottom: 40px;
-    font-weight: 500;
-}
 #footer {
     background-image: url(Images/footer.jpg);
     background-repeat: no-repeat;
-    width: 100%;
     background-size: cover;
-    min-height: 440px;
-    padding-top: 0px;
     padding-bottom: 23px;
 }
-.heading {
-    padding-top: 1px;
-    margin-top: 6%;
-}
-.implinks h5 {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: relative;
-    font-size: 20px;
-}
-ul li {
+.content ul li {
     list-style: none;
     padding-bottom: 10px;
 }
-ul li a {
+.content ul li a {
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -315,40 +294,63 @@ ul li a {
     color: #F06400;
     cursor: pointer;
 }
-.footerform form input[type="text"] {
+
+.form1 input{
     padding-bottom: 50px;
     padding-right: 40%;
     margin-top: 1%;
 }
-.footerform input[type="email"] {
-    padding-bottom: 50px;
-    padding-right: 40%;
-    margin-top: 1%;
-}
-.footerform textarea {
-    padding-bottom: 80px;
-    padding-right: 41%;
-    margin-top: 1%;
-}
-.form textarea{
-        padding-right: 33%;
-        margin-left: 3px;
-        border: 2px solid;
-        color: #fff;
-        box-sizing: border-box;
-        margin: 5px 3px;
-        background: no-repeat;
-}
-#copyright p {
-    padding: 12px 0;
-    font-weight: 300;
-    color: #FFFFFF;
-    text-align: center;
-}
-.container-copy{
-    background: #06038D;
+.headingg h4 {
     color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top: 2%;
+    font-weight: 500;
+}
+.linkss {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 35px;
+}
+.linkss h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+.boxes {
+    display: flex;
+}
+.boxno1 {
+    width: 25%;
+    padding-left: 6%;
+}
+.linksss h6 {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.boxno2 {
+    width: 25%;
+    padding-left: 4%;
+}
+.linkssss h6 {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.form {
+    margin-top: -10px;
+}
+.boxno3 {
+    padding-left: 10%;
+}
+#text2{
+    background-image: url(Images/get-image.jpg)
 }
 .copy {
-    margin-top: -16px;
+    background: blue;
+    text-align: center;
+    padding: 12px 0;
 }
