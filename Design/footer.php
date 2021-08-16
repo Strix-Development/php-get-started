@@ -28,9 +28,9 @@
                     <p>info@designcurtains.com.au</p>
                 
                  <div class="media1">
-                      <a href="#" target="_blank"> <img src="https://www.designcurtains.com.au/image/instagram.png"></a>
-                      <a href="#" target="_blank"> <img src="https://www.designcurtains.com.au/image/facebook.png"></a>
-			          <a href=" #" target="_blank"> <img src="https://www.designcurtains.com.au/image/pinterest.png"></a>
+                     <a href="#"><img src="Images/instagram.jpg"></a>
+                     <a href="#"><img src="Images/facebook.png"></a>
+                     <a href="#"><img src="Images/pinterest.png"></a>
                   </div>
                 </div>
             </div>

@@ -198,7 +198,7 @@ button.bt {
     font-weight: 500;
 }
 #footer {
-    background-image: url( https://www.designcurtains.com.au/image/footer.jpg);
+    background-image: url( Images/footer.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -261,7 +261,7 @@ ul li a {
     margin-top: -269px;
 }
 #contban{
-    background-image: url(https://www.designcurtains.com.au/image/contact/baner.jpg);
+    background-image: url(Images/baner.jpg);
     background-repeat: no-repeat;
     padding: 49px 0;
     margin-bottom: 26px;

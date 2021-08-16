@@ -24,9 +24,9 @@
                               </ul>
                          </div>
                          <div class="media">
-                             <a href="#"><img src="https://www.designcurtains.com.au/image/instagram.png"></a>
-                             <a href="#"><img src="https://www.designcurtains.com.au/image/facebook.png"></a>
-                             <a href="#"><img src="https://www.designcurtains.com.au/image/pinterest.png"></a>
+                             <a href="#"><img src="Images/instagram.jpg"></a>
+                             <a href="#"><img src="Images/facebook.png"></a>
+                             <a href="#"><img src="Images/pinterest.png"></a>
                          </div>
                      </div>
                  </div>
