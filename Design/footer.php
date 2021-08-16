@@ -27,11 +27,14 @@
                     <p>(02) 9894 0400</p>
                     <p>info@designcurtains.com.au</p>
                 
-                <div class="media1">
-                <a href="#" target="_blank"> <img src="https://www.designcurtains.com.au/image/instagram.png"></a>
-                <a href="#" target="_blank"> <img src="https://www.designcurtains.com.au/image/facebook.png"></a>
-				<a href=" #" target="_blank"> <img src="https://www.designcurtains.com.au/image/pinterest.png"></a>
-                </div>
+                   <div class="media1">
+                      <a href="#" target="_blank"> <img src="https://www.designcurtains.com.au/image/instagram.png">
+                       </a>
+                      <a href="#" target="_blank"> <img src="https://www.designcurtains.com.au/image/facebook.png">
+                      </a>
+				      <a href=" #" target="_blank"> <img src="https://www.designcurtains.com.au/image/pinterest.png">
+                      </a>
+                  </div>
                 </div>
             </div>
             <div class="box5">
@@ -39,17 +42,17 @@
                     <h5>Contact Form</h5>
                 </div>
                 <div class="form">
-                <form action="#" method="POST" name="form">
-				<input type="text"  placeholder="First Name*" name="fname" required>
-				<input type="text"  placeholder="Last Name*" name="lname" required>
-				<input type="text"  placeholder="Telephone*" name="phone" required>
-				<input type="email"  placeholder="Email*" name="email" required>
-				<textarea placeholder="Enquiry*" name="message"></textarea>
-                <button type="submit" class="button" name="submit">Submit</button>
+                    <form action="#" method="POST" name="form">
+			        <input type="text"  placeholder="First Name*" name="fname" required>
+		           	<input type="text"  placeholder="Last Name*" name="lname" required>
+			     	<input type="text"  placeholder="Telephone*" name="phone" required>
+			     	<input type="email"  placeholder="Email*" name="email" required>
+			    	<textarea placeholder="Enquiry*" name="message"></textarea>
+                   <button type="submit" class="button" name="submit">Submit</button>
                 </div>
-            </div>
-        </div>
-</div>
+         </div>
+     </div>
+   </div>
 </section>
 <section id="copyright">
     <div class="container-copy">
