@@ -58,8 +58,9 @@ header {
     background: white;
   
 }
-body{
-    background: white;
+body {
+    display: block;
+    margin: 8px;
 }
 .leftblock{
         background: white;
