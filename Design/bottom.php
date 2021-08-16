@@ -1,7 +1,7 @@
 <section class="top">
 <div class="container">
     <div class="row">
-        <h4>internal design</h4>
+        <h4>interior design</h4>
     </div>
 
 </section>

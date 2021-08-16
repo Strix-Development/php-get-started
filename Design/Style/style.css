@@ -56,10 +56,10 @@ section.top {
 }
 header {
     background: white;
-    height: 40px;
+  
 }
 body{
-    background: whitesmoke;
+    background: white;
 }
 .leftblock{
         background: white;
@@ -178,9 +178,10 @@ margin-bottom: 0px;
         font-weight: 700;
         color: #06038D;
 }
-.txt h2{
+.txt h2 {
     font-size: 20px;
     font-weight: 100;
+    padding-top: 3%;
 }
 button.bt {
     border: 1px solid white;
@@ -189,6 +190,7 @@ button.bt {
     cursor: pointer;
     padding: 10px 15px;
     margin-top: 1%;
+    margin-bottom: 2%;
 }
 #footer {
     background-image: url(Images/footer.jpg);
