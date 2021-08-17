@@ -280,7 +280,7 @@
     }
 
 
-    input[type="text"]{
+    .foot input[type="text"]{
         border:white 2px solid;
         padding: 20px;
         margin: 3px;
@@ -290,7 +290,7 @@
     }
 
 
-    input[type="submit"]{
+    .foot input[type="submit"]{
         width: 99%;
         border-radius: 6px;
         margin-top: 29px;
@@ -311,6 +311,150 @@
         font-family: 'Montserrat', sans-serif !important;
     }
 
+
+
+
+
+    .contact{
+        width: 100%;
+        height: 176px;
+        background-image: url(https://www.designcurtains.com.au/image/contact/baner.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: white;
+        font-family: 'Montserrat', sans-serif !important;
+        padding: 1px;
+        background-size: contain;  
+    }
+
+    .contact2{
+        background: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 127px;
+        padding: 1px;
+    }
+
+
+    .contactmid{
+        height: 129px;
+        width: 100%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+
+
+    .contactmid h2{
+        color: #06038D;
+    }
+
+
+    .contactmid p{
+        color: #595959;
+    }
+
+
+    .contactmid2{
+        height: 200px;
+        width: 100%;
+        padding: 1px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+
+
+    .contactmid2 h2{
+        color: #06038D;
+    }
+
+
+    .contactmid2 h3{
+        color: #F06400;
+    }
+
+    .contactmid2 h4{
+        font-size: 20px;
+        color: #06038D;
+    }
+
+
+    .backform{
+        width: 75%;
+        height: 551px;
+        margin-top: 6px;
+        padding: 1px;
+        margin-left: 180px;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+
+
+    .form{
+        width: 50%;
+        height: 500px;
+        float: left;
+    }
+
+
+    .form input[type="text"]{
+        background: #f4f4f4;
+        padding: 16px;
+        margin: 10px;
+        width: 40%;
+        border-radius: 6px;
+        border: solid 1px #d5d5d5;
+    }
+
+
+    .form textarea{
+        background: #f4f4f4;
+        margin-top: 10px;
+        margin-left: 12px;
+        border-radius: 6px;
+        width: 94%;
+        height: 200px;
+        border: solid 1px #d5d5d5;
+    }
+
+
+    .form input[type="submit"]{
+        margin-top: 20px;
+        margin-left: 345px;
+        width: 36%;
+        padding: 13px;
+        text-transform: uppercase;
+        background: #06038D;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        border: 0;
+    }
+
+    .image{
+        float: right;
+    }
+
+    .image img{
+        height: 500px;
+        border: solid 2px whitesmoke;
+        padding: 6px;
+        background: #dedede;
+        border-radius: 9px;
+        box-shadow: 10px 10px 14px rgb(255 255 255 / 90%)
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+   
 
    
 

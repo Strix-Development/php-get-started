@@ -51,7 +51,7 @@
                     curtain design that perfectly fits you.</p>
 
 
-                <img src="pictures/curtains-sofa.jpg" style="height: 472px; margin-top: 18px;width: 100%;">
+                <img src="curtains/pictures/curtains-sofa.jpg" style="height: 472px; margin-top: 18px;width: 100%;">
 
 
 
@@ -65,7 +65,7 @@
             <div class="box2">
 
 
-                <img src="pictures/second-cutin.jpg" style="height: 600px;width: 100%;">
+                <img src="curtains/pictures/second-cutin.jpg" style="height: 600px;width: 100%;">
 
 
                 <h3 style="font-size: 30px;"> <a style="font-weight: 200;">Made to Fit</a> <a style="color: #06038D;"> Your Space </a></h3>
@@ -144,7 +144,7 @@
                 <div class="mid3">
 
                 
-                <img src="pictures/third-curtain.jpg" style="height: 346px;width: 43%;margin-left: 31.85px;margin-top: 64px;">
+                <img src="curtains/pictures/third-curtain.jpg" style="height: 346px;width: 43%;margin-left: 31.85px;margin-top: 64px;">
 
 
 
@@ -163,7 +163,7 @@
 
         <div class="lower">
 
-       <img src="pictures/eight.jpg" style="width: 100%;height: 534px;">
+       <img src="curtains/pictures/eight.jpg" style="width: 100%;height: 534px;">
 
        <h3 style="text-align: center;font-size:30px"><a style="font-weight: 200;">Start-To-End</a> <a style="color:#06038D;">Approach</a></h3>
 
@@ -204,7 +204,7 @@
               creates a stunning impression that everyone visiting <br>
                your place will admire.</p>
 
-            <img src="pictures/ninbit.jpg" style="width: 100%;height: 535px;">
+            <img src="curtains/pictures/ninbit.jpg" style="width: 100%;height: 535px;">
 
         </div>
         
