@@ -70,7 +70,7 @@
 <section class="junior">
     <h1> Get in touch with us   </h1>
     <p> to give exquisite finishing touches to any room! </p>
-    <button class="btn"> CONTACT US</button>
+    <button class="btn"> contact us</button>
 </section>
 
 <?php

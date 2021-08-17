@@ -44,6 +44,10 @@ nav h1{
 /* complete css here*/
 
 
+
+
+
+
 /* home section is here*/
 #home{
     display:flex;
@@ -70,6 +74,7 @@ nav h1{
     font-size:25px;
 }
 /*close home section*/
+
 
 
 
@@ -110,6 +115,8 @@ nav h1{
 
 }
 /* close service section */
+
+
 
 
 
@@ -163,6 +170,9 @@ nav h1{
 
 
 
+
+
+
 /* junior section is start here*/
 .junior{
     display:flex;
@@ -175,7 +185,7 @@ nav h1{
 }
 .junior::before{
     content:"";
-    background: darkgrey;
+    background: darkgray;
     position: absolute;
     height:100%;
     width:100%;
@@ -193,14 +203,174 @@ nav h1{
 .junior button{
     color:white;
     background-color:#F06400;
-    border:15px solid #F06400;
-    margin-top: 20px;
+    border:1px solid black;
+    margin-top: 12px;
+    cursor: pointer;
+    height:50px;
+    width:170px;
+    
+}
+.junior button:hover{
+    background-color: blue;
+    color:white;
 }
 /*close junior section*/
 
 
-/* medium section is start here*/
+
+
+
+
+
+
+
+
+/* contact section is start here */
+#cntct{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px ;  
+    height:100px; 
+
+}
+#cntct::before{
+    content:"";
+    background: url('../Images/baner.jpg')no-repeat center center/cover;
+    position: absolute;
+    height:100%;
+    width:100%;
+     z-index:-1;
+    opacity:2;
+    height:150px;
+
+}
+#cntct h1{
+    color: white;
+    font-size: xx-large;
+}
+/*contact section is close here*/
+
+
+
+
+
+
+
+/* main section is start here */
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px ;  
+}
+#main::before{
+    content:"";
+    background: darkgray;
+    position: absolute;
+    height:100%;
+    width:100%;
+     z-index:-1;
+    opacity:0.1;
+    height:940px;    
+}
+/* div  min */
+#min {
+    padding:10px 10px;
+    margin:5px;
+}
+
+#min h1{
+    text-align: center;
+    color:rgb(6, 6, 105) ;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:20px;
+}
+#min p{
+    text-align: center;
+    font-size: large;
+    color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* div  man*/
+#man {
+    
+    padding:20px 10px;
+    margin:5px;
+    text-align: center;
+}
+#man h1 {
+    color:rgb(6, 6, 105) ;
+    padding:10px;
+
+}
+#man h2 {
+    color: orangered;
+    padding:10px;
+    
+}
+
+/* div men */
+#men{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    
+}
+.abc{
+    height:100%;
+    width:100%;
+    margin:30px;
+    
+}
+form input {
+    height: 20px;
+    margin:12px;
+    width:230px;
+}
+#email{
+    width:500px;
+}
+#telephone{
+    width:500px;
+}
+textarea{
+    height:110px;
+    width:500px;
+}
+button{
+    color:white;
+    background-color:rgb(6, 6, 105) ;  
+    box-sizing: border-box;
+    padding:10px 80px;
+    font-size:medium; 
+    cursor: pointer;
+    float:right;
+    margin:6px;  
+   }
+   button:hover{
+       background-color: white;
+       color: blue;
+   }
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER:-medium section is start here*/
 #medium{
+    
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -208,6 +378,7 @@ nav h1{
     height:400px; 
 }
 #medium-container::before{
+    
     content:"";
     background: url('../Images/footer.jpg')no-repeat center center/cover;
     position: absolute;
@@ -221,6 +392,7 @@ nav h1{
     padding:15px;
 }
 #a{
+    
     color: white;
     text-align: center;
     font-size: xx-large;
@@ -230,8 +402,6 @@ nav h1{
     color:white;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
 }
 
 #medium ul li{
@@ -286,18 +456,23 @@ textarea{
     color:black;
     font-size:medium;
 }
-form button{
+#medium-container button{
     border:2px solid black;
     box-sizing: border-box;
-    padding:10px 150px;
+    padding:15px 150px;
     color:white;
-    font-size:medium; 
+    font-size:small; 
     background-color: blue; 
     cursor: pointer; 
 }
-form button:hover{
-    background-color: orangered;
-} 
+#medium-container button:hover{
+    background-color: orange;
+    color:white;
+}
+/* FOOTER:-medium section is close here */
+
+
+
 
 
 
