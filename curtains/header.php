@@ -18,7 +18,7 @@
     <div class="nav">
         <ul>
 
-            <li><a href="curtains/curtainshtml.php"style="text-decoration: none;color: #171717;">HOME</a></li>
+            <li><a href="curtainshtml.php"style="text-decoration: none;color: #171717;">HOME</a></li>
             <li>ABOUT US</li>
             <li>OUR SERVICE</li>
             <li> <a href="curtains/contact.php" target="blank" style="text-decoration: none;color: #171717;">CONTACT</a></li>

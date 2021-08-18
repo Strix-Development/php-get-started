@@ -12,17 +12,17 @@
 
 <body>
 
-    <?php include_once __DIR__ .  '/header.php';
+    <?php include 'header.php';
     ?>
 
 
 
-    <?php include_once __DIR__ .  "/body.php";
+    <?php include "body.php";
     ?>
 
 
 
-    <?php include_once __DIR__ .  "/footer.php"  ?>
+    <?php include "footer.php"  ?>
 
 
 

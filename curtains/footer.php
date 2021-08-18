@@ -51,7 +51,7 @@
                         Victoria Ave, Castle Hill NSW 2154, <br>
                         Australia</p>
 
-                    <img src="curtains/pictures/call.png" style="margin-top: 51px;float:left">
+                    <img src="pictures/call.png" style="margin-top: 51px;float:left">
                     <a style="float: left;margin-top:12px;margin-left: 25px;">1300 760 720</a>
                     <a style="float: right;margin-top: 12px;margin-right: 18px">(02) 9894 0400</a>
                     <div class="img">
