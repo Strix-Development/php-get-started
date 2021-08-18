@@ -18,7 +18,7 @@
     <div class="nav">
         <ul>
 
-            <li>HOME</li>
+            <li><a href="curtains/curtainshtml.php"style="text-decoration: none;color: #171717;">HOME</a></li>
             <li>ABOUT US</li>
             <li>OUR SERVICE</li>
             <li> <a href="curtains/contact.php" target="blank" style="text-decoration: none;color: #171717;">CONTACT</a></li>
@@ -29,12 +29,12 @@
 
     <div class="media">
 
-        <a href="https://www.instagram.com/designcurtains.au" target="blank">
+        <a href="https://www.facebook.com/designcurtains.au/" target="blank">
             <img src="curtains/pictures/facebook.png" style="height: 30px;">
         </a>
+        
 
-
-        <a href="https://www.facebook.com/designcurtains.au/" target="blank">
+        <a href="https://www.instagram.com/designcurtains.au" target="blank">
             <img src="curtains/pictures/instagram.png" style="height: 30px;">
         </a>
 
