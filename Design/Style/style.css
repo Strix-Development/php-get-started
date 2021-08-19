@@ -3,34 +3,6 @@ width: 100%;
 max-width: 1200px;
 margin: 0 auto;
 }
- .left h3{font-size: 32px; 
-color: #06038D;
-font-family: 'Montserrat', sans-serif !important;
-margin-top: 10px;
-}
-.menu ul li {
-    display: inline;
-    text-transform: uppercase;
-    padding: 0 10px;
-}
-.menu ul li a {
-    text-decoration: none;
-    font-weight: 600;
-    color: black;
-}
-.menu {
-    padding-left: 45%;
-    margin-top: -70px;
-    float: left;
-}
-.media img {
-    width: 25px;
-    height: 25px;
-}
-.media {
-    float: right;
-    margin-top: -60px;
-} 
 section.top .container .row h4 {
     text-align: center !important;
     text-transform: uppercase;
@@ -56,11 +28,12 @@ section.top {
 }
 header {
     background: white;
-  
+    height: 58px;
 }
 body {
     display: block;
-    margin: 8px;
+    margin: 0;
+    background: whitesmoke;
 }
 .leftblock{
         background: white;
@@ -143,7 +116,6 @@ margin-bottom: 0px;
         padding: 24px;
         margin-top: 42px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        margin-bottom: 4px;
 }
 .container{
   max-width: 1200px;  
@@ -192,6 +164,10 @@ button.bt {
     padding: 10px 15px;
     margin-top: 1%;
     margin-bottom: 2%;
+}
+button.bt:hover {
+    background-color: #06038D;
+    transition: all ease-in-out 0.6s;
 }
 #footer {
     background-image: url(Images/footer.jpg);
@@ -297,9 +273,9 @@ button.bt {
     cursor: pointer;
 }
 
-.form1 input{
+.form1 input {
     padding-bottom: 50px;
-    padding-right: 40%;
+    padding-right: 300%;
     margin-top: 1%;
 }
 .headingg h4 {
@@ -356,4 +332,50 @@ button.bt {
     text-align: center;
     padding: 2px 0;
     margin-top: 2%;
+    color: white;
+}
+.form1 {
+    display: flex;
+}
+.map {
+    margin-left: 50%;
+}
+.map img {
+    height: 80%;
+    width: 100%;
+}
+.nav {
+    display: flex;
+}
+.nav h3 {
+    color: #06038D;
+    font-size: 33px;
+    margin-top: 10px;
+    margin-left: 82px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.nav ul {
+    margin-left: 278px;
+    margin-top: 20px;
+}
+.nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.media {
+    margin-top: 16px;
+    margin-left: 80px;
+}
+.media a img {
+    width: 25px;
+    height: 25px;
+}
+ul li a:hover {
+    color: red;
 }

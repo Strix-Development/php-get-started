@@ -11,7 +11,7 @@
                      </div>
                      <div class="content">
                           <ul>
-                             <li><a href="#">HOME</a></li>
+                             <li><a href="home.php">HOME</a></li>
                              <li><a href="#">ABOUT</a></li>
                              <li><a href="#">OUR SERVICES</a></li>
                              <li><a href="contact.php">CONTACT</a></li>
@@ -27,6 +27,11 @@
                          <p>1300 760 720</p>
                          <p>(02) 9894 0400</p>
                          <p>info@designcurtains.com.au</p>
+                     </div>
+                     <div class="media1">
+                         <a href="#"><img src="Images/instagram.jpg"></a>
+                         <a href="#"><img src="Images/facebook.png"></a>
+                         <a href="#"><img src="Images/pinterest.png"></a>
                      </div>
                  </div>
                  <div class="boxno3">
