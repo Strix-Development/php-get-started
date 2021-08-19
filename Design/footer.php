@@ -29,9 +29,9 @@
                          <p>info@designcurtains.com.au</p>
                      </div>
                      <div class="media1">
-                         <a href="#"><img src="Images/instagram.jpg"></a>
-                         <a href="#"><img src="Images/facebook.png"></a>
-                         <a href="#"><img src="Images/pinterest.png"></a>
+                         <a href="#"><img src="Design/Images/instagram.jpg"></a>
+                         <a href="#"><img src="Design/Images/facebook.png"></a>
+                         <a href="#"><img src="Design/Images/pinterest.png"></a>
                      </div>
                  </div>
                  <div class="boxno3">

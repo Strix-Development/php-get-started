@@ -25,12 +25,12 @@
                         <p>As a city or urban dweller, it’s difficult to maintain a sense of belonging with our most innate connection in life, Nature! Recent scientific studies show our physiological response to mild stress is significantly reduced when we’re exposed to literal and or replications of Nature. This knowledge is reflected in the primary Global Trend influencing Interior Design emphasising our ‘appreciation’ for Nature. Our Interior Designer acknowledges well researched and scientifically determined facts of experiencing Nature has a positive effect on our physiological and mental well being.</p>
                         <p> With our expert interior design services, we help you achieve this health benefit while keeping in view your style preferences, existing trends  and your budget.</p>
                   </div>
-                        <div class="image"><img src="Images/sofa.jpg">
+                        <div class="image"><img src="Design/Images/sofa.jpg">
                        </div>
               </div>
               <div class="cont">
                       <div class="rightblock">
-                          <div class="image1"><img src="Images/appaten3.jpg"></div>
+                          <div class="image1"><img src="Design/Images/appaten3.jpg"></div>
                       <div class="box1">
                           <h3>Masters of Every Kind <span class="span1"> of Interior Design</span></h3><br>
                           <p>Whether you wish for an eclectic style, a resort feel interior, a contemporary style, a minimalist look, a Hamptons design, a Scandinavian look, a coastal theme or wish to create a trendy boho atmosphere or if you are simply after a classic or traditional interior, we are masters of every style and design. We have the best interior designing team with years of experience. </p>
@@ -53,7 +53,7 @@
                     </div>
              </div>
              <div class="rgtbl">
-             <div class="image2"><img src="Images/appatent2.jpg">
+             <div class="image2"><img src="Design/Images/appatent2.jpg">
              </div>
       </div>
     </div>

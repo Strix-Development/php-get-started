@@ -11,15 +11,15 @@
          <div class="nav">
    <h3>Design Curtains</h3> 
     <ul>
-        <li><a href="home.php">home</a></li>
-        <li><a href="#">about us</a></li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about us</a></li>_
         <li><a href="#">our services</a></li>
-        <li><a href="contact.php">contact</a></li>
+        <li><a href="Design/contact.php">contact</a></li>
     </ul>
  <div class="media">
-    <a href="#"><img src="Images/instagram.jpg"></a>
-    <a href="#"><img src="Images/facebook.png"></a>
-    <a href="#"><img src="Images/pinterest.png"></a>
+    <a href="#"><img src="Design/Images/instagram.jpg"></a>
+    <a href="#"><img src="Design/Images/facebook.png"></a>
+    <a href="#"><img src="Design/Images/pinterest.png"></a>
     </div>
 </div>
         </header>
