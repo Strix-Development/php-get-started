@@ -10,7 +10,7 @@
     
 <?php
 
-echo "BE right back!"
+require_once (__DIR__ . '/curtains/curtainshtml.php');
 
 ?>
 </body>
