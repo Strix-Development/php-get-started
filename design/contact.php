@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__."/header.php";
  ?>
+ 
 <section id="cntct">
 <div>
     <h1> CONTACT-US </h1>

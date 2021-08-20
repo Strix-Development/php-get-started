@@ -343,7 +343,7 @@ textarea{
     height:110px;
     width:500px;
 }
-button{
+#men button{
     color:white;
     background-color:rgb(6, 6, 105) ;  
     box-sizing: border-box;
@@ -353,9 +353,9 @@ button{
     float:right;
     margin:6px;  
    }
-   button:hover{
-       background-color: white;
-       color: blue;
+  #men button:hover{
+       background-color:white;
+       color:blue;
    }
 
 
