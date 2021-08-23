@@ -12,9 +12,6 @@ section.top .container .row h4 {
     font-size: 26px;
     letter-spacing: 2px;
 }
-section.top {
-    padding-top: 24px;
-}
 #banner .container .row h4 {
     font-size: 25px;
     font-weight: 700;
@@ -30,7 +27,6 @@ section.top {
 }
 header {
     background: white;
-    height: 58px;
 }
 body {
     margin: 0;
@@ -347,13 +343,13 @@ button.bt:hover {
 }
 .nav h3 {
     color: #06038D;
-    font-size: 33px;
-    margin-top: 10px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif !important;
+    margin: 20px 16px;
 }
 .nav ul {
     margin-left: 278px;
-    margin-top: 20px;
+    margin-top: 28px;
 }
 .nav ul li {
     display: inline;
@@ -366,7 +362,7 @@ button.bt:hover {
     color: black;
 }
 .media {
-    margin-top: 16px;
+    margin-top: 25px;
     margin-left: 80px;
 }
 .media a img {
