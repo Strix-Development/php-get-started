@@ -6,11 +6,11 @@
 <body>
     <?php
     echo "<h1>String Operators</h1>";
-    $a="Hello ";
-    $b=$a."World";
+    $a=" Hello ";
+    $b=$a." World ";
     echo  $b . "<br>";
-    $a="Hello";
-    $a.=" World";
+    $a=" Hello ";
+    $a.=" World ";
     echo $a;
     ?>
 </body>
