@@ -17,7 +17,6 @@
         $object= new Toys;
         $object->fname('Trucks');
         echo "<br>";
-
         class TV{
             public $name;
             public $No;
