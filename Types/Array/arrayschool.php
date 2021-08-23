@@ -6,6 +6,7 @@
         </title>
     </head>
     <body>
+        <h1>Array</h1>
         <?php
         $sch=array( 
             "School"=>

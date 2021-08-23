@@ -6,6 +6,7 @@
         </title>
     </head>
     <body>
+        <h1>Array</h1>
         <?php
         $new=["School"=>['Students'=>['Class'=>['12',['Section'=>['A','Name'=>'ABC','Roll No.'=>'1','Subject'=>
      ['English'=>['Teacher'=>'QWER','Timing'=>'8:30am','Building'=>['Room No.'=>'10','Room'=>'A.C','Capacity'=>'20']],

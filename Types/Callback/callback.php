@@ -6,6 +6,7 @@
         </title>
     </head>
     <body>
+        <h1>Callback</h1>
         <?php
         function fname($name){
         return strlen($name);

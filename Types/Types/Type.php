@@ -6,6 +6,7 @@
         </title>
     </head>
     <body>
+        <h1>Boolean,Integer,Floting point numbers,String,Heredoc,Nowdoc,Numeric Strings,Null</h1>
         <?php
         //BOOLEAN
         $a=True;

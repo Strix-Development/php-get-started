@@ -6,6 +6,7 @@
         </title>
     </head>
     <body>
+        <h1>Object</h1>
         <?php
         class Toys{
             public $name;

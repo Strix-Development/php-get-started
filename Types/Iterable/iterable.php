@@ -6,6 +6,7 @@
         </title>
     </head>
     <body>
+        <h1>Iterable</h1>
         <?php
         function first(iterable $try){
             foreach ($try as $item){
