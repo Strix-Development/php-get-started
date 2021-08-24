@@ -60,5 +60,5 @@
         $variable=array("FIRSt"=>1,"SEcond"=>2);
         print_r(array_change_key_case($variable,CASE_LOWER));
     ?>
-</body>
+</body> 
 </html>
