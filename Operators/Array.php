@@ -52,6 +52,13 @@
         $a=["a"=>"red","b"=>"green"];
         $b=["a"=>"red","b"=>"green"];
         var_dump($a!==$b);
+        echo "<br>";
+        echo "<h1>Array Functions</h1>";
+        $variable=array("firsT"=>1,"Second"=>2);
+        print_r(array_change_key_case($variable,CASE_UPPER ));
+        echo "<br>";
+        $variable=array("FIRSt"=>1,"SEcond"=>2);
+        print_r(array_change_key_case($variable,CASE_LOWER));
     ?>
 </body>
 </html>
