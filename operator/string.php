@@ -26,6 +26,6 @@ echo "<br>";
 
 
 
-require_once __DIR__."/array operator.php";
+//require_once __DIR__."/array operator.php";
 
 ?>

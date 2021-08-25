@@ -30,6 +30,8 @@ usKO ASSIGN KR DETA HAI-->
 $name = "kirti";
 $salary = 100;
 echo "$name is a employee and her salary is $salary <br>";
+
+require_once __DIR__."/scope.php";
 ?> 
 </body>
 </html>

@@ -70,10 +70,17 @@ $p = 3;
 $r = $s**$p;
 echo ($r);
 echo "<br>";
+//EXPOMEMTIATION
+$l = 7;
+$d = 2;
+$f = $l**$d;
+echo ($f);
+echo "<br>";
 
 
 
-require_once __DIR__."/assignment.php";
+
+//require_once __DIR__."/assignment.php";
 ?>
 
 

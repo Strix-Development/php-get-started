@@ -14,6 +14,6 @@ echo ($x >= $y)  //@ hide the error*/
 }   // Error is: strpos() expects at least 2 parameters, 0 given*/
 
 
-require_once __DIR__."/increment.php";
+//require_once __DIR__."/increment.php";
 
 ?>

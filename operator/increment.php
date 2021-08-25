@@ -32,6 +32,6 @@ echo $gh;
 echo "<br>";
 
 
-require_once __DIR__."/logical.php";
+//require_once __DIR__."/logical.php";
 
 ?>

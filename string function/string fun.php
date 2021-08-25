@@ -104,6 +104,9 @@
       //random() :- it tells any random number
       echo(rand());
       echo "<br>";
+
+      require_once __DIR__."/constant.php";
+
       ?>
 
 

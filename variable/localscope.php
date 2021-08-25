@@ -15,6 +15,8 @@ function my() {
 } 
 my();
 echo " value of x is $x";   // outside function it will generate error  
+
+require_once __DIR__."/other.php";
 ?>
 </body>
 </html>

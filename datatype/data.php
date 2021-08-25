@@ -52,6 +52,9 @@ echo gettype($y);     //gettype expect only one parameter
 // GETTYPE() TELLS US ONLY TYPE OF VARIABLE
 
 
+require_once __DIR__."/array.php";
+
+
 ?>
 </body>
 </html>

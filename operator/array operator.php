@@ -1,6 +1,7 @@
 <?php
 
-// UNION ARRAY OPERATOR (+):- UNION OF $A AND $B
+// UNION ARRAY OPERATOR (+):- UNION OF $A AND $B is check which have same key and print same key only one time
+// and all other are write as it is.
 $a = array('rahul'=>500, 'sonam'=>300 , 'aksahy'=>400);
 $b = array('rahul'=>'php', 'sonam'=>'python' , 'aksahy'=>'java','ritik'=>'html','john'=>'css');
 $result = $a + $b;
@@ -27,7 +28,9 @@ echo "<br>";
 
 
 
-//inequality array operator:-(!=),(<>) TRUE IF $A IS NOT EQUAL TO $B and not same key/value pair 
+
+//inequality array operator:-(!=),(<>) TRUE IF $A IS NOT EQUAL TO $B
+// and not same key/value pair AND OREDR DOES NOT MATTER
 $h = array('kirti'=>200,'manshvi'=>400,'isha'=>600);
 $p = array('kirti'=>'php','manshvi'=>'python','isha'=>'java');//different key/value pair and order does not matter
 if ($h != $p){
@@ -37,6 +40,8 @@ else{
     echo "false";
 }
 echo " <br>";
+
+
 
 
 //IDENTITY ARRAY OPERATOR ($A===$B):-true if $a and $b have same (KEY/VALUE) pair
@@ -51,5 +56,41 @@ else{
 }
 echo " <br>";
 
+
+
+
+
 //non-identity ARRAY OPERATOR(!==): TRUE IF $A IS NOT IDENTICAL TO $B
 //true if key/value pair is different,order differnt
+$v = array('radha'=>200,'manvi'=>400,'rekha'=>600);
+$k = array('akshay'=>100,'manshvi'=>900,'raksha'=>400);
+if ($v !== $k){
+    echo "both array key/value pair true";
+}
+else{
+    echo "key value pair false";
+}
+echo " <br>";
+
+
+
+
+
+// ARRAY CASES
+//UPPER CASES:- ARRAY_CHANGE_KEY_CASE
+$name  = array('kirti'=>10,'komal'=>12,'kasish'=>24);
+print_r(array_change_key_case($name, CASE_UPPER));
+echo "<br>";
+
+//LOWER CASES:-
+$name  = array('komal'=>10,'isha'=>12,'manvi'=>24);
+print_r(array_change_key_case($name, CASE_LOWER));
+echo "<br>";
+
+
+
+
+
+
+require_once __DIR__."/execution.php";
+?>

@@ -14,11 +14,28 @@
     // global variable
    $x = 5; 
     function Test() {
-    echo " value of x  is $x<br>";           // using x inside this function will generate an error 
+   // echo "$x";           using x inside this function will generate an error 
    } 
    echo "<br>";
    Test();
    echo " value of x is $x<br>";
 
 
+   require_once __DIR__."/localscope.php";
+?>
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -139,21 +139,26 @@
 
       // ITERABLE (FOR-EACH) LOOP
       $name = array("kirti","himanshu","nikhil","vicky");
-      foreach($name as $value){
-        echo $value,"<br>";
+      foreach($name as $value){   // syntax is start from {{array-name as variable-name}}s
+        echo $value,"<br>";       //echo value(variable) not (array)
        }
+       
   
-
-       //MY CALL BACK FUNCTION
+        // CALLABLE AND CALLBACKS:-
+       // this function is call from call_user_function 
        function my_callback_function(){
          echo 'hello world';
        }
+       call_user_func('my_callback_function');
+       echo "<br>";
 
        class MyClass {
         static function myCallbackMethod() {
             echo 'Hello World!';
         }
     }
+    call_user_func(array('MyClass', 'myCallbackMethod'));
+    echo "<br>";
 
 
 
@@ -170,7 +175,8 @@
    
 
 
-      
+   
+   
   ?>
 </body>
 </html>

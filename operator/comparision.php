@@ -102,6 +102,6 @@ $h = 600;
 echo ($g <=> $h);
 echo "<br>";  // out put 1
 
-require_once __DIR__."/error control.php";
+//require_once __DIR__."/error control.php";
 
 ?>

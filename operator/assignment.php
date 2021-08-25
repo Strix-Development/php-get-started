@@ -74,6 +74,6 @@ echo "<br>";
 
 
 
-require_once __DIR__."/comparision.php";
+//require_once __DIR__."/comparision.php";
 
 ?>
