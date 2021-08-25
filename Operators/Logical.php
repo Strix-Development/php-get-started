@@ -56,6 +56,20 @@
     $b=true;
     var_dump (!$a);
     echo "<br>";
+    echo "<h1>Statements</h1>";
+    if ((TRUE AND TRUE==FALSE)OR(FALSE AND FALSE)!=TRUE AND(FALSE OR(TRUE==TRUE))==TRUE){
+        echo TRUE;
+    }
+    else{
+        echo FALSE;
+    }
+    echo "<br>";
+    if ((TRUE AND TRUE==FALSE)OR(FALSE AND FALSE !=TRUE)AND(FALSE OR(TRUE==TRUE))==TRUE){
+        echo TRUE;
+    }
+    else{
+        echo FALSE;
+    }
     ?>
 </body>
 </html>
