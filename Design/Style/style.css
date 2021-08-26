@@ -195,13 +195,14 @@ button.bt:hover {
     color: #fff;
     border: 2px solid;
 }
-.button{
+.button {
     border-radius: 3px;
     background: #06038D;
     color: white;
     font-size: 16px;
     border: solid 1px transparent;
     padding: 5px 40px;
+    margin-left: 5%;
 }
 .box4 {
     padding-left: 30%;
@@ -270,6 +271,7 @@ button.bt:hover {
     padding-bottom: 50px;
     padding-right: 300%;
     margin-bottom: 8px;
+    margin-left: 5%;
 }
 .headingg h4 {
     color: white;
