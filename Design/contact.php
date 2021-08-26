@@ -62,7 +62,7 @@
          </div>
          <div class="form1">
              <form action="#" method="POST" name="form1">
-     	        <input type="text"  placeholder="First Name*" name="fname" required><br>
+     	         <input type="text"  placeholder="First Name*" name="fname" required><br>
                  <input type="text"  placeholder="Last Name*" name="lname" required><br>
                  <input type="text"  placeholder="Phone-Number*" name="phone" required><br>
      	         <input type="email"  placeholder="Email*" name="email" required><br>
