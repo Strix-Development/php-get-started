@@ -65,8 +65,8 @@
      	        <input type="text"  placeholder="First Name*" name="fname" required><br>
                  <input type="text"  placeholder="Last Name*" name="lname" required><br>
                  <input type="text"  placeholder="Phone-Number*" name="phone" required><br>
-     	        <input type="email"  placeholder="Email*" name="email" required><br>
-     	        <input type="Message" placeholder="Message*" name="message"><br><br>
+     	         <input type="email"  placeholder="Email*" name="email" required><br>
+     	         <input type="Message" placeholder="Message*" name="message"><br><br>
                  <button type="submit" class="button" name="submit">Submit</button>
               </form>
               <div class="map">
