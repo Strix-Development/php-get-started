@@ -57,18 +57,18 @@
     var_dump (!$a);
     echo "<br>";
     echo "<h1>Statements</h1>";
-    if ((TRUE AND TRUE==FALSE)OR(FALSE AND FALSE)!=TRUE AND(FALSE OR(TRUE==TRUE))==TRUE){
-        echo TRUE;
+    if ((true and true==false)or(false and false)!=true and(false or(true==true))==true){
+        echo true;
     }
     else{
-        echo FALSE;
+        echo false;
     }
     echo "<br>";
-    if ((TRUE AND TRUE==FALSE)OR(FALSE AND FALSE !=TRUE)AND(FALSE OR(TRUE==TRUE))==TRUE){
-        echo TRUE;
+    if ((true and true==false)or(false and false!=true) and(false or(true==true))==true){
+        echo true;
     }
     else{
-        echo FALSE;
+        echo false;
     }
     ?>
 </body>
