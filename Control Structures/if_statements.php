@@ -54,7 +54,7 @@
       }else{
           echo "$a is less than $b";
       }
-      echo "<br>";
+      echo "<h2>Alternative syntax for control structures</h2>";
       $a=100;
       $b=500;
       if($a>$b):
