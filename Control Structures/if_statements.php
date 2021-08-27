@@ -54,6 +54,16 @@
       }else{
           echo "$a is less than $b";
       }
+      echo "<br>";
+      $a=100;
+      $b=500;
+      if($a>$b):
+        echo "$a is greater than $b";
+        elseif($a==$b):
+            echo "$a is equal to $b";
+            else:
+                echo "$a is neither greater than or equal to $b";
+            endif;
     ?>
 </body>
 </html>
