@@ -6,7 +6,7 @@
         </title>
     </head>
     <body>
-        <h1>Constants</h1>
+        <h1>Constant</h1>
     <?php
     define("CONSTANT","HELLO THIS IS FIRST");
     echo CONSTANT."<br>";
