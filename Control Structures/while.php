@@ -12,96 +12,307 @@
           $a++;
       }
       echo "<h1>Patterns</h1>";
-      $row=0;
-      while($row<=10){
-          $column=0;
-          while($column<=$row){
-              echo "* &nbsp";
-              $column++;
-          }
-          echo "<br>";
-          $row++;
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo "* &nbsp";
+        $j++;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=10;
+    while ($j >=$i ) {
+        echo "* &nbsp";
+        $j--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo "* &nbsp";
+        $j++;
+    }
+    echo"<br>";
+    $i++;
+}
+$i=0;
+while ($i <= 10) {
+    $j=9;
+    while ($j >= $i) {
+        echo "* &nbsp;";
+        $j--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=9;
+    while ($j >=$i) {
+        echo " &nbsp; &nbsp; ";
+        $j--;
+    }
+    $k=0;
+    while ($k <= $i) {
+        echo "* &nbsp;";
+        $k++;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo " &nbsp; &nbsp; ";
+        $j++;
+    }
+    $k=10;
+    while ($k >=$i) {
+        echo "* &nbsp";
+        $k--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=9;
+    while ($j >=$i ) {
+        echo " &nbsp; &nbsp; ";
+        $j--;
+    }
+    $k=0;
+    while ($k <= $i) {
+        echo "* &nbsp;";
+        $k++;
+    }
+    echo "<br>";
+    $i++;
+}
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo " &nbsp; &nbsp; ";
+        $j++;
+    }
+    $k=9;
+    while ($k >= $i) {
+        echo "* &nbsp;";
+        $k--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=10;
+    while ($j >= $i) {
+        echo "&nbsp; &nbsp;";
+        $j--;
+    }
+    $k=0;
+    while ($k <= $i) {
+        echo " * ";
+        $k++;
+    }
+    $l=1;
+    while ($l <=$i) {
+        echo" * ";
+        $l++;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo" &nbsp;&nbsp; ";
+        $j++;
+    }
+    $k=10;
+    while ($k >= $i) {
+        echo " * ";
+        $k--;
+    }
+    $l=9;
+    while ($l >= $i) {
+    echo " * ";
+    $l--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+    $j=10;
+    while ($j >= $i) {
+        echo "&nbsp; &nbsp;";
+        $j--;
+    }
+    $k=0;
+    while ($k <=$i) {
+        echo " * ";
+        $k++;
+    }
+    $l=1;
+    while ($l <= $i) {
+        echo " * ";
+        $l++;
+    }
+    echo "<br>";
+    $i++;
+}
+$i=1;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo "&nbsp; &nbsp;";
+        $j++;
+    }
+    $k=9;
+    while ($k >= $i) {
+        echo " * ";
+        $k--;
+    }
+    $l=10;
+    while ($l >= $i) {
+        echo " * ";
+        $l--;
+    }
+    echo "<br>";
+    $i++;
+}
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo "* &nbsp";
+        $j++;
+    }
+    echo "<br>";
+    $i++;
+}
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo " &nbsp; &nbsp; ";
+        $j++;
+    }
+    $l=9;
+    while ($l <= 10) {
+        echo " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ";
+        $l++;
+    }
+    $k=10;
+    while ($k >= $i) {
+        echo "* &nbsp;";
+        $k--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 10) {
+   $j=0;
+   while ($j <=$i) {
+      echo " * ";
+      $j++;
+   }
+   $k=9;
+   while ($k >= $i) {
+      echo " &nbsp; &nbsp; &nbsp ";
+      $k--;
+   }
+$j=0;
+while ($j <=$i) {
+   echo " * ";
+   $j++;
+}
+echo "<br>";
+$i++;
+}
+echo"<br>";
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    $k=0;
+    while ($k <= 10) {
+        echo "&nbsp;&nbsp;&nbsp;&nbsp;";
+        $k++;
+    }
+    while ($j <= $i) {
+        echo "* &nbsp";
+        $j++;
+    }
+    echo "<br>";
+    $i++;
+}
+$i=0;
+while ($i <= 10) {
+    $j=0;
+    while ($j <= $i) {
+        echo " &nbsp; &nbsp; ";
+        $j++;
+    }
+    $k=10;
+    while ($k >= $i) {
+        echo "* &nbsp;";
+        $k--;
+    }
+    echo "<br>";
+    $i++;
+}
+$i=0;
+while ($i <= 10) {
+    $j=10;
+    while ($j >= $i) {
+        echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+        $j--; 
+    }
+    $k=0;
+    while ($k <= $i) {
+     echo " &nbsp; * ";
+     $k++;
+    }
+    echo "<br>";
+    $i++;
+   }
+   $i=0;
+   while ($i <= 10) {
+      $j=0;
+      while ($j <=10) {
+         echo "&nbsp; &nbsp; &nbsp;";
+         $j++;
+      }
+      $k=10;
+      while ($k >= $i) {
+         echo " &nbsp; * ";
+         $k--;
       }
       echo "<br>";
-     $row=0;
-     while($row<=10){
-        $column=0;
-        $k=10;
-        while($column<=$row){
-           echo " &nbsp; &nbsp;";
-           $column++;
-        }
-        while ($k>=$row) {
-           echo"* &nbsp";
-           $k--;
-        }
-        echo "<br>";
-        $row++;
-     }
-     echo "<br>";
-     $i=0;
-     while ($i<=10) {
-        $j=0;
-        $k=0;
-        while ($j<=10-$i) {
-         echo "&nbsp;&nbsp;";
-         $j++;
-        }
-        while ($k<=$i) {
-           echo "*&nbsp;&nbsp;";
-           $k++;
-        }
-        echo "<br>";
-        $i++;
-     }
-    echo "<br>";
-     $i=0;
-     while ($i<=10) {
-        $j=0;
-        $k=10;
-        while ($j<=$i) {
-         echo "&nbsp;&nbsp;";
-         $j++;
-        }
-        while ($k>=$i) {
-           echo "* &nbsp;";
-           $k--;
-        }
-        echo "<br>";
-        $i++;
-     }
-     echo "<br>";
-     $i=0;
-     while ($i<=10) {
-        $j=0;
-        $k=0;
-        while ($j<=10-$i) {
-         echo "&nbsp;&nbsp;";
-         $j++;
-        }
-        while ($k<=$i) {
-           echo "*&nbsp;&nbsp;";
-           $k++;
-        }
-        echo "<br>";
-        $i++;
-     }
-     $i=1;
-     while ($i<=10) {
-        $j=0;
-        $k=10;
-        while ($j<=$i) {
-         echo "&nbsp;&nbsp;";
-         $j++;
-        }
-        while ($k>=$i) {
-           echo "* &nbsp;";
-           $k--;
-        }
-        echo "<br>";
-        $i++;
-     }
-
+      $i++;
+   }
+   echo "<br>";
 ?>
 </body>
 </html>
