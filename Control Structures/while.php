@@ -27,7 +27,7 @@ $i=0;
 while ($i <= 10) {
     $j=10;
     while ($j >=$i ) {
-        echo "* &nbsp";
+        echo "* &nbsp";asaa
         $j--;
     }
     echo "<br>";
