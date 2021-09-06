@@ -3,8 +3,9 @@
  if(condition){
      block of statement;
  }
+
  SECOND WAY TO WRITE SYNTAX OF IF STATEMENT
- if(conditon:
+ if(conditon)
     block of statement;
  endif;*/
 
@@ -40,8 +41,8 @@
  }
 */
  //FIRST EXAMPLE OF NESTED IF STATEMENT
-if(10>5){
-    echo "this is true <br/>";
+if(10>5){   
+    echo "this is true <br/>";  //this condition is true then execute whoel statement.
     if(102<2){
         echo"first code execute<br/> ";
     }
@@ -49,7 +50,7 @@ if(10>5){
         echo "second code is execute<br/> ";
     }
 }
-if(8>2){
+if(8>2){         // this is the outer code of if statement
     echo "this is also true ";
 }
 echo "<br>";
@@ -62,7 +63,7 @@ if($x <= 30){
         echo "this is tea <br/>"; 
     }
     if($x>30){
-        echo "this is coffee <br/>";
+        echo "this is coffee";
     }
 }
 
@@ -76,12 +77,14 @@ if($x==30){
 
 
 
-//IF ELSE CONDITION
-/*if ($a > $b) {
-    echo "a is greater than b";
-  } else {
-    echo "a is NOT greater than b";
-  }*/
+//IF ELSE CONDITION :- if-else is used when different sequence of instruction is to be
+// executed depemding upon the logical value (true/false) of the condition evaluated.
+
+/*if (condition){
+    block of statement;
+}else{
+    block of statement;
+}*/
 
 // FIRST EXAMPLE OF IF ELSE CONDITION
 if(10!=2){
@@ -116,7 +119,10 @@ echo "<br>";
 
 
 
-// EXAMPLE OF  ELSEIF STATEMENT
+
+
+// EXAMPLE OF  ELSEIF STATEMENT:- WE ARE USE ELSE IF FOR MULTIPLE CONDITION AND IT CHECK ALL
+//STATEMENT ONE BY ONE
 $age = 10;
 if($age > 18){
     echo "you can drink water";
@@ -149,11 +155,47 @@ if ($k > $v) {
 } else {
     echo "a is smaller than b";
 }
+echo "<br>";
 
-
-
-
-
-
+//EXAMPLE OF ELSEIF STATEMENT
+$price = 25;
+if($price > 40){
+    echo "if condition is true <br/>";
+}elseif($price > 30){
+    echo "first else if condition is true <br/>";
+}elseif($price > 20){
+    echo "second else if condition is true <br/>";
+}else{
+    echo "all condition are false";
+}
 
 ?>
+
+
+
+
+<!--ALTERNATIVE SYNTAX FOR CONTROL STRUCTURE-->
+$a = 5;
+<?php if ($a == 5): ?>
+A is equal to 5
+<?php endif; ?>
+
+
+
+<?php
+$c = 7;
+if ($c == 6):
+    echo "c equals 6";
+    echo "...";
+elseif ($c == 7):
+    echo "c equals 7";
+    echo "!!!";
+else:
+    echo "c is neither 6 nor 7";
+endif;
+echo "<br>";
+
+
+
+
+ ?>
