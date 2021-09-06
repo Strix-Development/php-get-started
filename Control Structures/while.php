@@ -11,7 +11,7 @@
           echo $a ."<br>";
           $a++;
       }
-      echo "<h1>Patterns</h1>";
+      echo "<h1>Star Patterns</h1>";
 $i=0;
 while ($i <= 10) {
     $j=0;
@@ -73,7 +73,7 @@ while ($i <= 10) {
 echo "<br>";
 $i=0;
 while ($i <= 10) {
-    $j=0;
+    $j=1;
     while ($j <= $i) {
         echo " &nbsp; &nbsp; ";
         $j++;
@@ -313,6 +313,149 @@ while ($i <= 10) {
       $i++;
    }
    echo "<br>";
+   echo "<h1>Number Patterns</h1>";
+$i=1;
+while ($i <= 5) {
+    $j=1;
+    while ($j <= $i) {
+        echo "$j &nbsp;";
+        $j++;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=1;
+while ($i <= 5) {
+    $j=$i;
+    $k=4;
+    while ($k >= $i) {
+       echo " &nbsp; &nbsp; ";
+       $k--;
+    }
+    while ($j >= 1) {
+        echo "$j &nbsp;";
+        $j--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=0;
+while ($i <= 5) {
+    $j=1;
+    while ($j <= $i) {
+        echo " &nbsp; &nbsp; ";
+        $j++;
+    }
+    $k=5-$i;
+    while ($k >= 1) {
+        echo"$k &nbsp;";
+        $k--;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=1;
+while ($i <= 5) {
+    $j=1;
+    while ($j <= $i) {
+        echo "$i &nbsp;";
+        $j++;
+    }
+    echo "<br>";
+    $i++;
+}
+echo "<br>";
+$i=5;
+while ($i>=0 ) {
+    $j=1;
+    while ($j <=$i) {
+        echo"$j &nbsp;";
+        $j++;
+    }
+    echo "<br>";
+    $i--;
+}
+echo "<br>";
+$i=5;
+while ($i >= 1) {
+    $k=5-$i;
+    while ($k >= 1) {
+        echo "&nbsp;&nbsp;&nbsp;&nbsp;";
+        $k--;
+    }
+    $j=1;
+    while ($j <= $i) {
+        echo "$i &nbsp;";
+        $j++;
+    }
+    echo "<br>";
+    $i--;
+}
+echo "<br>";
+$i=1;
+while ($i <= 5) {
+    $j=1;
+    $k=5;
+    while ($k >= $i) {
+       echo " &nbsp; &nbsp; ";
+       $k--;
+    }
+    while ($j <= $i) {
+        echo "$j &nbsp;";
+        $j++;
+    }
+    $j=$i-1;
+    while ($j >= 1) {
+       echo "$j &nbsp;";
+       $j--;
+    }
+    echo "<br>";
+    $i++;
+}
+$i=4;
+while ($i >= 1) {
+    $j=1;
+    $k=5;
+    while ($k >= $i) {
+       echo " &nbsp; &nbsp; ";
+       $k--;
+    }
+    while ($j <= $i) {
+        echo "$j &nbsp;";
+        $j++;
+    }
+    $j=$i-1;
+    while ($j >= 1) {
+       echo "$j &nbsp;";
+       $j--;
+    }
+    echo "<br>";
+    $i--;
+}
+echo "<br>";
+$i=1;
+while ($i <= 5) {
+    $j=1;
+    $k=5;
+    while ($k >= $i) {
+       echo " &nbsp; &nbsp; ";
+       $k--;
+    }
+    while ($j <= $i) {
+        echo "$j &nbsp;";
+        $j++;
+    }
+    $j=$i-1;
+    while ($j >= 1) {
+       echo "$j &nbsp;";
+       $j--;
+    }
+    echo "<br>";
+    $i++;
+}
 ?>
 </body>
 </html>
