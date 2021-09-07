@@ -23,39 +23,10 @@ echo "<br>";
 
 
 
-//DO WHILE LOOP:- IT IS SIMILAR TO THE WHILE LOOP. BUT THE CONDITION IS CHECKED AFTER THE 
-//LOOP BODY IS EXECUTE.THIS ENSURE THAT THE LOOP BODY IS RUN ATLEAST ONCE.
-//SYNTAX OF DO WHILE LOOP:- its have only this syntax and no other syntax for do while loop
-//in do while statement is rum  one time and the check condition and then execute statement again
-/* initialization:
-do{
-    block of code;
-    increment and decrement;
-} while(condition); */
-
-$num = 1;  // initialization work only one time
-do{
-    echo "number is $num <br/>";
-    $num++;
-}while($num<=3);
-echo "<br>";
 
 
 
-
-//FOR LOOP:-FOR LOOP IS FREQUENTLY USED UASUALLY WHRE THE LOOP WILL BE TRAVERSED A FIXED NUMBER OF TIME
-//SYNTAX OF FOR LOOP
-/*for(initialization; test condition; increment and decrement){
-    block of code;
-}*/
-
-for($num = 1 ; $num <= 3; $num++){  //initializarion work only one time
-    echo "number is $num<br/>";
-}
-
-
-
-
+//USING WHILE LOOP
 // PRACTICE ON PATTERN:- MAKING PATTERN FIRST OF ALL CHECK PATTERN HOW MANY ROWS AND COLUMN IN THE PATTERN
 //PRINT  LEFT  SIDED TRIANGLE
 $row = 0;
@@ -78,7 +49,7 @@ echo "<br>";
 
 
 
-
+//USING WHILE LOOP
 //PRINT OPPOSITE LEFT SIDED TRIANGLE
 $row = 1;
 while($row <= 6){
@@ -97,7 +68,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 // PRINT RIGHT SIDED TRIANGLE
 $i = 1;
 while($i <= 6){
@@ -122,7 +93,7 @@ echo "<br>";
 
 
 
-
+//USING WHILE LOOP
 //PRINT OPPOSITE RIGHT SIDED TRIANGLE
 $i = 0; 
 while($i <= 5){
@@ -146,7 +117,7 @@ echo "<br>";
 
 
 
-
+//USING WHILE LOOP
 //PRINT   PARAMID
 $i = 1;
 while($i <= 6){  
@@ -169,7 +140,7 @@ echo "<br>";
 
 
 
-
+//USING WHILE LOOP
 //PRINT  OPPOSTE  PARAMID
 $i = 6;
 while($i >= 1){
@@ -193,7 +164,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 //PRINT DIAMOND 
 $i = 0;                          
 while($i <= 6){
@@ -232,7 +203,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 // PRINT NEXT PATTERN
 $r= 1;
 while($r <= 5){
@@ -265,7 +236,7 @@ echo "<br>";
 
 
 
-
+//USING WHILE LOOP
 //PRINT NEXT PATTERN
 $r= 1;
 while($r <= 5){
@@ -302,7 +273,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 //PRINT NEXT PATTERN
 $i=0;
 while($i<=4){
@@ -342,7 +313,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 //PRINT NEXT PATTERN
 $i = 6;
 while($i <= 10){
@@ -382,7 +353,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 // PRINT COLUMN(1,2,3,4,5) LEFT SIDE TRIANGLE SHAPE
 $row = 1;
 while($row <= 5){
@@ -401,6 +372,7 @@ echo "<br>";
 
 
 
+// USING WHILE LOOP
 //PRINT COLUMN(1,1,1,1,1) LEFT SIDE TRIANGLE SHAPE
   $row = 1;
 while($row <= 5){
@@ -419,7 +391,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE L0OP
 //PRINT OPPOSITE LEFT SIDE TRIANGLE COLUMN(1,1,1,1,1)
 $i = 5;
 while($i >= 1){
@@ -441,7 +413,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 //PRINT RIGHT SIDE TRIANGLE COLUMN(1,1,1,1,1)
 $i = 1;
 while($i <= 5){
@@ -464,8 +436,7 @@ echo "<br>";
 
 
 
-
-
+// USING WHILE LOOP
 //PRINT OPPOSITE RIGHT SIDED TRIANGLE COLUMN(1,1,1,1,1)
 $i = 5;
 while($i >= 1){
@@ -489,7 +460,7 @@ echo "<br>";
 
 
 
-
+// USIMG WHILE LOOP
 //PRINT OPPOSITE RIGHT SIDED TRIANGLE (ROW=5,5,5,5,5)
 $i = 5;
 while($i >= 1){
@@ -513,7 +484,7 @@ echo "<br>";
 
 
 
-
+// USING WHILE LOOP
 // PRINT NUMBER PARAMID PATTERN
 $m=1;
 $n=6;
@@ -546,7 +517,7 @@ echo "<br>";
 
 
 
-
+//USING WHILE LOOP
 //PRINT NUMBER DIAMOND PATTERN
 $m=1;
 $n=6;
@@ -597,50 +568,51 @@ while($i <= $n){
 }
 
 
-// BREAK STATEMENT EXAMPLE
-for($i=0; $i<=5; $i++){
-echo "$i";
-echo "<br>";
-if($i == 3){  // $i value is 3 then (3==3) and then stop ho jayega code
-    break;
-}
-}
-echo "<br>";
 
 
 
-//EXAMPLE OF BREAK STATEMENT
-$arr = array('ram','shyam','reeta','sumit');
-foreach($arr as $value){
-    if($value == 'reeta'){
-        break;       // because of break array stoping for reeta and print only ram,shyam.
-    }
-    echo "$value" ;
-    echo "<br>";
-}
-echo "<br>";
 
 
+//DO WHILE LOOP:- IT IS SIMILAR TO THE WHILE LOOP. BUT THE CONDITION IS CHECKED AFTER THE 
+//LOOP BODY IS EXECUTE.THIS ENSURE THAT THE LOOP BODY IS RUN ATLEAST ONCE.
+//SYNTAX OF DO WHILE LOOP:- its have only this syntax and no other syntax for do while loop
+//in do while statement is rum  one time and the check condition and then execute statement again
 
-// EXAMPLE OF CONTINUE STATEMENT
-for($i=1; $i<=5; $i++){
-    if($i == 2){   // 2 skip because of continue statement
-        continue;
-    }
-    echo "$i";
-    echo "<br>";
-}
+/* initialization:
+do{
+    block of code;
+    increment and decrement;
+} while(condition); */
+
+$num = 1;  // initialization work only one time
+do{
+    echo "number is $num <br/>";
+    $num++;
+}while($num<=3);
 echo "<br>";
 
 
-// EXAMPLE OF CONTINUE STATEMENT
-$arr = array('banana','apple','orange','grapes');
-foreach($arr as $val){
-    if($val == 'orange'){
-        continue;
-    }
-    echo "$val";
-    echo "<br>";
+
+$x = 1;
+
+do {
+  echo "The number is: $x <br>";
+  $x++;
+} while ($x <= 5);
+echo "<br>";
+
+
+
+
+//FOR LOOP:-FOR LOOP IS FREQUENTLY USED UASUALLY WHRE THE LOOP WILL BE TRAVERSED A FIXED NUMBER OF TIME
+//SYNTAX OF FOR LOOP
+/*for(initialization; test condition; increment and decrement){
+    block of code;
+}*/
+
+for($num = 1 ; $num <= 3; $num++){  //initializarion work only one time
+    echo "number is $num<br/>";
 }
 
-?> 
+
+?>
