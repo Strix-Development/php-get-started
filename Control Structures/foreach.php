@@ -5,6 +5,7 @@
 </head>
 <body>
    <?php
+   echo "<h1>Foreach</h1>";
    $var=array(1,2,3,4,5,6,7,8,9,10);
    foreach($var as $val){
    echo "$val <br>";
