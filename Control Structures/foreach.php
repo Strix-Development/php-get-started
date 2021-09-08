@@ -28,6 +28,6 @@
    foreach ($var as $val) {
        echo "$val <br>";
    }
-   ?> 
+   ?>
 </body>
 </html>
