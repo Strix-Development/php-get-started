@@ -1,7 +1,9 @@
 <section class="top">
 <div class="container">
     <div class="row">
-        <h4>interior design</h4>
+      <section id= "top1">
+          <h4>interior design</h4>
+      </section>
     </div>
 
 </section>
@@ -32,7 +34,7 @@
                       <div class="rightblock">
                           <div class="image1"><img src="Images/appaten3.jpg"></div>
                       <div class="box1">
-                          <h3>Masters of Every Kind <span class="span1"> of Interior Design</span></h3><br>
+                          <h3>Masters of Every Kind <span class="span1"> of<br> Interior Design</span></h3>
                           <p>Whether you wish for an eclectic style, a resort feel interior, a contemporary style, a minimalist look, a Hamptons design, a Scandinavian look, a coastal theme or wish to create a trendy boho atmosphere or if you are simply after a classic or traditional interior, we are masters of every style and design. We have the best interior designing team with years of experience. </p>
                           <p> With our extensive and diverse expertise in residential interior design, we have the capability to transform any ordinary living space into a piece of creative art. </p>
                       </div>

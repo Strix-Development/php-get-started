@@ -1,11 +1,11 @@
 <section id="footer">
  <div class="container">
-       <div class="headingg">
+       <div class="heading2">
           <h4>design curtains</h4>
        </div>
       <div class="boxes">
           <div class="boxno1">
-              <div class="linkss">
+              <div class="links">
                  <h6>important links</h6>
               </div>
              <div class="content">
@@ -18,7 +18,7 @@
                 </div>
            </div>
          <div class="boxno2">
-             <div class="linksss">
+             <div class="links1">
                  <h6>contact information</h6>
              </div>
              <div class="continfo">
@@ -34,12 +34,12 @@
                     </div>
                 </div>
                 <div class="boxno3">
-                      <div class="linkssss">
+                      <div class="links2">
                         <h6>contact form</h6>
                       </div>
                   <div class="form">
                      <form action="#" method="POST" name="form">
-		              <input type="text"  placeholder="First Name*" name="fname" required><br>
+		              <input type="text" class="fname" placeholder="First Name*" name="fname" required><br>
 			          <input type="text"  placeholder="Last Name*" name="lname" required><br>
 			          <input type="text"  placeholder="Telephone*" name="phone" required><br>
 		              <input type="email"  placeholder="Email*" name="email" required><br>

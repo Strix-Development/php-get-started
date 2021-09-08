@@ -8,7 +8,9 @@
  <div class="container">
        <div class="row">
          <div class="nav">
-              <h3>Design Curtains</h3> 
+             <div class="logo">
+                 <a href="#"><h3>Design Curtains</h3></a>
+              </div> 
                <ul>
                    <li><a href="index.php">home</a></li>
                    <li><a href="#">about us</a></li>
@@ -41,49 +43,37 @@
              </div>
          </div>
      </section>
-     <section id="form">
-         <div class="container">
-             <div class="row">
-                 <div class="rowtxt">
-                     <section id="email">
-                         <div class="container">
-                             <div class="row">
-                                 <div class="rowtxt1">
-                                     <h4>Contact us through </h4>
-                                     <p> info@designcurtains.com.au </p>
-                                     <p>1300 760 720  </p>
-                                     <h4>reach out to us on phone or just simply fill in the given contact form.</h4>
-                                 </div>
-                             </div>
-                         </div>
-                     </section>
-                 </div>
-             </div>
-         </div>
-         <div class="form1">
-             <form action="#" method="POST" name="form1">
-     	         <input type="text"  placeholder="First Name*" name="fname" required><br>
-                 <input type="text"  placeholder="Last Name*" name="lname" required><br>
-                 <input type="text"  placeholder="Phone-Number*" name="phone" required><br>
-     	         <input type="email"  placeholder="Email*" name="email" required><br>
-     	         <input type="Message" placeholder="Message*" name="message"><br><br>
-                 <button type="submit" class="button" name="submit">Submit</button>
-              </form>
-              <div class="map">
-                  <img src="Images/map.jpg" alt="map">
-              </div>
-           </div>
-   </section>
+     <div class="container">
+          <div class="rowtxt">
+               <h4>Contact us through </h4>
+               <p> info@designcurtains.com.au </p>
+               <p>1300 760 720  </p>
+               <h4>reach out to us on phone or just simply fill in the given contact form.</h4>
+          </div>
+     </div>
+     <div class="form1">
+         <form action="#" method="POST" name="form1">
+             <input type="text"  placeholder="First Name*" name="fname" required><br>
+             <input type="text"  placeholder="Last Name*" name="lname" required><br>
+             <input type="text"  placeholder="Phone-Number*" name="phone" required><br>
+             <input type="email"  placeholder="Email*" name="email" required><br>
+             <input type="Message" placeholder="Message*" name="message"><br><br>
+             <button type="submit" class="button1" name="submit">Submit</button>
+          </form>
+          <div class="map">
+              <img src="Images/map.jpg" alt="map">
+          </div>
+       </div>
+</section>
 
-   <section id="footer">
-     <div class="contt">
-         <div class="boxx">
-             <div class="headingg">
+<section id="footer">
+     <div class="container">
+             <div class="heading2">
                   <h4>design curtains</h4>
              </div>
              <div class="boxes">
                  <div class="boxno1">
-                     <div class="linkss">
+                     <div class="links">
                          <h6>important links</h6>
                      </div>
                      <div class="content">
@@ -96,7 +86,7 @@
                       </div>
                  </div>
                  <div class="boxno2">
-                     <div class="linksss">
+                     <div class="links1">
                          <h6>contact information</h6>
                      </div>
                      <div class="continfo">
@@ -112,12 +102,12 @@
                      </div>
                  </div>
                  <div class="boxno3">
-                       <div class="linkssss">
+                       <div class="links2">
                          <h6>contact form</h6>
                        </div>
                       <div class="form">
                          <form action="#" method="POST" name="form">
-			                 <input type="text"  placeholder="First Name*" name="fname" required><br>
+			                 <input type="text" class="fname"  placeholder="First Name*" name="fname" required><br>
 				             <input type="text"  placeholder="Last Name*" name="lname" required><br>
 				             <input type="text"  placeholder="Telephone*" name="phone" required><br>
 			                 <input type="email"  placeholder="Email*" name="email" required><br>
@@ -127,9 +117,8 @@
                      </div>
                  </div>
              </div>
-          <div>
       </div>
-     <div class="copy">
+      <div class="copy"> 
          <p>Copyright © 2019 Design Curtains. All Rights Reserved.</p>
-     </div>  
+      </div>  
 </section>  
