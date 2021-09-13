@@ -21,6 +21,18 @@
         }
         echo "$val <br>";
     }
+    echo "<br>";
+    $var=array('one','two','three','four','five');
+    $vr=array('six','seven','eight','nine','ten');
+    foreach($var as $val){
+        foreach($vr as $vl){
+            if($vl == 'eight'){
+                break 2;
+            }
+            echo "$vl<br>";
+        }
+        echo "$val <br>";
+    }
     ?>
 </body>
 </html>

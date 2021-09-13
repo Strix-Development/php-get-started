@@ -63,7 +63,7 @@
             echo "$a is equal to $b";
             else:
                 echo "$a is neither greater than or equal to $b";
-            endif;
+        endif;
     ?>
 </body>
 </html>
