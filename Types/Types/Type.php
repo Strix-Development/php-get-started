@@ -68,9 +68,9 @@
         var_dump($a1);
         echo "<br>";
         //HEREDOC
-        $a=<<<EOD
+        $a=<<<END
         Hello.
-        EOD;
+        END;
         var_dump($a);
         echo "<br>";
         echo gettype($a)."<br>";
