@@ -23,10 +23,10 @@
       $passwerr="<b><i>Please enter your password</i></b>";
     }
     if(empty($_POST["number"])){
-      $numerr= "<b><i>Please enter your number<br></i></b>";
+      $numerr= "<b><i>Please enter your number</i></b>";
     }
     if(empty($_POST["confirmpassword"])){
-      $conferr= "<b><i>Please confirm your password<br></i></b>";
+      $conferr= "<b><i>Please confirm your password</i></b>";
     }
    }
   ?>
