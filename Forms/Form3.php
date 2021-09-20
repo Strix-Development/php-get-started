@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>Form</title>
+    <style>
+      .err{
+        color:red;
+      }
+    </style>
 </head>
 <body>
   <?php
@@ -32,17 +37,23 @@
   ?>
   <form action="" method="POST">
    <label for="fname">First Name</label><br>
-   <input type="text" name="fname" id="fname"><?php echo $fnameerr ?><br>
+   <input type="text" name="fname" id="fname">
+   <span class="err"> <?php echo $fnameerr ?></span><br>
    <label for="lname">Last Name</label><br>
-   <input type="text" name="lname" id="lname"><?php echo $lnameerr ?><br>
+   <input type="text" name="lname" id="lname">
+   <span class="err"><?php echo $lnameerr ?></span><br>
    <label for="email">E-mail</label><br>
-   <input type="email" name="email" id="email"><?php echo $emailerr ?><br>
+   <input type="email" name="email" id="email">
+   <span class="err"><?php echo $emailerr ?></span><br>
    <label for="password">Password</label><br>
-   <input type="password" name="password" id="password"><?php echo $passwerr ?><?php echo $passerr ?><br>
+   <input type="password" name="password" id="password">
+   <span class="err"><?php echo $passwerr ?><?php echo $passerr ?></span><br>
    <label for="confirmpassword">Confirm Password</label><br>
-   <input type="password" name="confirmpassword" id="confirmpassword"><?php echo $conferr ?><?php echo $passerr ?><br>
+   <input type="password" name="confirmpassword" id="confirmpassword">
+   <span class="err"><?php echo $conferr ?><?php echo $passerr ?></span><br>
    <label for="number">Phone Number</label><br>
-   <input type="tel" name="number" id="number" pattern="[0-9]{10}"><?php echo $numerr ?><br><br>
+   <input type="tel" name="number" id="number" pattern="[0-9]{10}">
+   <span class="err"><?php echo $numerr ?></span><br><br>
    <input type="submit" name="submit" value="Submit">
   </form>
   <?php
