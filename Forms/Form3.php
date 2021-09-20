@@ -60,15 +60,15 @@
    if (isset($_POST["submit"])) {
      echo "<h3>Your information:</h3>";
       if($_POST["fname"]){
-         echo "Full Name:".$_POST["fname"]."&nbsp".$_POST["lname"];
+         echo "<b>Full Name:</b>".$_POST["fname"]."&nbsp".$_POST["lname"];
          echo "<br>";
      }
      if($_POST["email"]){
-      echo "E-mail:".$_POST["email"];
+      echo "<b>E-mail:</b>".$_POST["email"];
       echo "<br>";
      }  
      if($_POST["number"]){
-         echo "Number:".$_POST["number"];
+         echo "<b>Number:</b>".$_POST["number"];
          echo "<br>";
      }
     }
