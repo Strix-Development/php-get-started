@@ -611,8 +611,28 @@ echo "<br>";
 }*/
 
 for($num = 1 ; $num <= 3; $num++){  //initializarion work only one time
-    echo "number is $num<br/>";
+    echo "number is $num <br/>";
 }
 
+//DO WHILE LOOP
+$i = 0;
+do{
+    echo "$i <br/>";
+    $i++;
+}while($i<=5);
+echo "<br>";
 
+//FOR LOOP
+for($i=0;$i<=5;$i++){
+    echo "$i <br/>";
+}
+echo "<br>";
+
+//WHILE LOOP
+$i=0;
+while($i<=5){
+    echo "$i <br/>";
+    $i++;
+}
+echo "<br>";
 ?>

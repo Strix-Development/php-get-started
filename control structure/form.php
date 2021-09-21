@@ -3,26 +3,16 @@ scanning nhi kr skta islie validation jruri hai to is se database me data submit
 
 
 <?php
-/*if(isset($_POST['submit'])){      // click to the submit
-    $username = $_POST['username'];
-    $password = $_POST['pass'];
-    if(strlen($username) <=8 ){
-        echo "<span style='color:red';>username should be more than 8 character</span>";
-    }
-
-}*/
-
-
 
 $nameerror = $emailerror = $websiteErr = $genderErr = ""; //variables for collecting error
-$name = $password = $email = $message = $website = $submit =$comment = $gender = "";  //variables for collecting data
+$fname = $password = $email = $message = $website = $submit =$comment = $gender = "";  //variables for collecting data
 
 // global variable ke pas kon sa mehod aya h get ya post post h mtlb ye true hai to body ke andr gya
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
 // agr bina form ko fill kie submit button pe click kia to error msg ayega
 //code for name
 if(empty($_POST["name"])){   //empty
-    $nameerror = "name is mendatory";
+    $nameerror = "First Name is mendatory";
 }else{
     $name = test_input($_POST["name"]);  //value letter nhi hai to ayega ye msg otherwise kuch nhi ayega 
 if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
@@ -30,6 +20,9 @@ if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
 }
 }
 }  
+
+
+ 
 
 
 
@@ -61,6 +54,8 @@ if (empty($_POST["website"])) {
   } else {
     $gender = test_input($_POST["gender"]);
   }
+
+
 
 
 // test_input is a function ($data) is a argument ke rup me ek variable hai ($data) isme data pass 
@@ -103,9 +98,9 @@ function test_input($data) {      // test_input is a user defined function and o
 <p><span class= "errorcolor"> * mendatory field </span> </p>    <!--form ke upr ayegi ye validation  -->
 
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-
-name: <input type="text" name="name">
+Name: <input type="text" name="name" id="name">
 <span class="errorcolor">* <?php echo "$nameerror"; ?></span><br><br>
+
 
 password: <input type="password" name="pass"><br><br>
 
@@ -131,7 +126,7 @@ submit: <input type="submit" name="submit" value="submit">
     </form>
 
 <?php 
-echo $name;
+echo $fname;
 echo "<br>";
 
 echo $password;

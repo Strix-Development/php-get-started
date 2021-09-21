@@ -1,5 +1,6 @@
-<?php
 
+
+<?php
 
 /*
 TWO TYPES OF SYNTAX FOR FOREACH ARE:-
@@ -13,6 +14,8 @@ foreach (iterable_expression as $key => $value)
 $arr = array(1, 2, 3, 4);
 foreach ($arr as &$value) {
     $value = $value * 2;
+    echo "$value <br/>";
+    echo "<br>";
 }
 
 
@@ -73,120 +76,15 @@ echo "<br>";
         echo "<br>";  
     }  
 echo "<br>";
-
-
-
-
-
-
-
-//  1:: BREAK STATEMENT EXAMPLE (FOR)
-for($i=1; $i<=5; $i++){
- if($i == 3){  // $i value is 3 then (3==3) and then stop ho jayega code
-        break;
-    }
-    echo "$i";
-    echo "<br>";
-    }
-    echo "<br>";
-
-
-
- // 2 :: EXAMPLE OF BREAK STATEMENT (ARRAY)
-    $arr = array('ram','shyam','reeta','sumit');
-    foreach($arr as $value){
-        if($value == 'reeta'){
-            break;       // because of break array stoping for reeta and print only ram,shyam.
-        }
-        echo "$value" ;
-        echo "<br>";
-    }
-    echo "<br>";
-
-
-// 3:: EXAMPLE FOR BREAK  STATEMENT (WHILE)
- $i = 0;
- while($i<=5){
-     if($i == 4){
-         break;
-     }
-     echo "$i";
-     echo "<br>";
-     $i++;
- }
- echo "<br>";
-
-
-
- // 4:: example for break statement (DO-WHILE)
- $i = 1;
- do{
-     echo "$i";
-     echo "<br>";
-     $i++;
-     if($i == 4){
-         break;
-     }
- }while($i<=6);
+// ARRAY CONSTANT IN PHP
+define("cars",['maruti-suzuki','mg-hector','creta','venue']);
+echo cars[1];
 echo "<br>";
 
-
-
-
-
-    
-
-
-    // 1:: EXAMPLE OF CONTINUE STATEMENT (FOR LOOP)
-    for($i=1; $i<=5; $i++){
-        if($i == 2){   // 2 skip because of continue statement
-            continue;
-        }
-        echo "$i";
-        echo "<br>";
-    }
-    echo "<br>";
-    
-
-// 2:: EXAMPLE OF CONTINUE STATEMENT  (ARRAY)
-    $arr = array('banana','apple','orange','grapes');
-    foreach($arr as $val){
-        if($val == 'orange'){
-            continue;
-        }
-        echo "$val";
-        echo "<br>";
-    }
-    echo "<br>";
-    
-
-    // EXAMPLES OF SWITCH STATEMENT
-    $date = 30;
-    switch($date)
-    {
-        case 10:
-            echo "c programming";
-            break;
-        case 15:
-            echo "c++ programming";
-             break;
-         case 20:
-            echo "java programming";
-            break;
-         case 30:
-            echo "php programming";
-            break;
-         case 40:
-            echo "html and css";
-            break;      
-         case 50:
-             echo "python programming";
-             break;   
-            default:
-            echo "no programming";
-    }
-    
-    
-
-
+//CONSTANT ARE GLOBAL
+define("GREETING","good-morning");  //constant
+function myFun(){
+    echo GREETING;
+}
+myFun();
 ?>

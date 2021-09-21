@@ -4,8 +4,8 @@
      block of statement;
  }
 
- SECOND WAY TO WRITE SYNTAX OF IF STATEMENT
- if(conditon)
+  ALTERNATIVE SYNTAX AND SECOND WAY TO WRITE SYNTAX OF IF STATEMENT
+ if(conditon):
     block of statement;
  endif;*/
 
