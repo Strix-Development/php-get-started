@@ -4,6 +4,7 @@
     <title>Form</title>
 </head>
 <body>
+  <h1>Form</h1>
   <form action="register.php" method="POST">
    <label for="fname">First Name</label><br>
    <input type="text" name="fname" id="fname"><br>
