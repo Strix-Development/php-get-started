@@ -38,11 +38,11 @@ require_once file_header();
                   </div>
                   <div class="mb-3 col-md-6">
                      <label>Confirm Password:</label>
-                     <input type="password" name="confirmpassword" class="form-control" placeholder="Confirm Password">
+                     <input type="password" name="confirmpassword" class="form-control"
+                      placeholder="Confirm Password">
                   </div>
                   <div class="col-md-12">
                   <input type="hidden" name="register" value="action">
-
                   <input type="submit" class="btn btn-danger" name="submit" value="submit">
                </div>
             </form>
