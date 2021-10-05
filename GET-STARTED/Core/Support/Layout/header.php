@@ -17,7 +17,7 @@
           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Log in</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Sign in</a></li>
-            <li><a class="dropdown-item" href="signup.php">Sign up</a></li>
+            <li><a class="dropdown-item" href="register.php">Sign up</a></li>
           </ul>
         </li>
       </ul>

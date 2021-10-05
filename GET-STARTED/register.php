@@ -16,7 +16,6 @@ require_once file_header();
                <h4 class="mb-5 text-secondary">Sign Up</h4>
                <div class="row">
                   <div class="mb-3 col-md-6">
-                  <input type="hidden" name="register" value="action">
                      <label>First Name:</label>
                      <input type="text" name="fname" class="form-control" placeholder="Enter First Name">
                   </div>
@@ -42,8 +41,9 @@ require_once file_header();
                      <input type="password" name="confirmpassword" class="form-control" placeholder="Confirm Password">
                   </div>
                   <div class="col-md-12">
-                     <button class="btn btn-primary float-end" name="submit">Submit</button>
-                  </div>
+                  <input type="hidden" name="register" value="action">
+
+                  <input type="submit" class="btn btn-danger" name="submit" value="submit">
                </div>
             </form>
          </div>
