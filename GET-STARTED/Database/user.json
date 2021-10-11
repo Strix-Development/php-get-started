@@ -1,0 +1,29 @@
+[
+    {
+        "First Name": "Ram",
+        "Last Name": "Ram",
+        "E-mail": "Ram@gmail.com",
+        "Phone number": "0987654321",
+        "Password": "Ram",
+        "Confirm Password": "Ram",
+        "Role": "admin"
+    },
+    {
+        "First Name": "ram",
+        "Last Name": "ram",
+        "E-mail": "ram@gmail.com",
+        "Phone number": "1111111111",
+        "Password": "ram",
+        "Confirm Password": "ram",
+        "Role": "editor"
+    },
+    {
+        "First Name": "Ram",
+        "Last Name": "Ram",
+        "E-mail": "Ramram@gmail.com",
+        "Phone number": "1234567890",
+        "Password": "Ramram",
+        "Confirm Password": "Ramram",
+        "Role": "user"
+    }
+]
