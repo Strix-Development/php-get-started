@@ -18,6 +18,18 @@
         echo "<br>";
         $i++;
     }while($i>1);
+    echo "<h1>Tables</h1>";
+    $i=1;
+    do{
+        echo " 9 * $i = ". 9 * $i ."<br>";
+        $i++;
+    }while($i<=10);
+    echo "<br>";
+    $i=1;
+    do{
+        echo " 10 * $i = ". 10 * $i  . "<br>";
+        $i++;
+    }while($i<=10);
     ?>
 </body>
 </html>
