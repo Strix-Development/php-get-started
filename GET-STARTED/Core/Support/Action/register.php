@@ -48,4 +48,3 @@ if ($_POST['fname'] == '' || $_POST['lname'] == '' || $_POST['tel'] == '' || $_P
   }
 }
 ?>
-<head>git</head>
