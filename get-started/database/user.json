@@ -1,0 +1,56 @@
+[
+    {
+        "first name": "struusrturustr",
+        "last name": "4w57u45",
+        "phone no.": "1111111",
+        "email": "dtrudytd@gmail.com",
+        "password": "111",
+        "role": "admin",
+        "ID": 1
+    },
+    {
+        "first name": "ishan",
+        "last name": "sharma",
+        "phone no.": "9885280107",
+        "email": "ishansharma@gmail.com",
+        "password": "123",
+        "role": "user",
+        "ID": 2
+    },
+    {
+        "first name": "yaman",
+        "last name": "sharma",
+        "phone no.": "12345678910",
+        "email": "ymn@gmail.com",
+        "password": "qaz",
+        "role": "admin",
+        "ID": 3
+    },
+    {
+        "first name": "goku",
+        "last name": "saiyan",
+        "phone no.": "1234567890",
+        "email": "goku@123gmail.com",
+        "password": "dfg",
+        "role": "editor",
+        "ID": 4
+    },
+    {
+        "first name": "lilpeep",
+        "last name": "rapper",
+        "phone no.": "51595354478",
+        "email": "lilpeep@gothboygmail.com",
+        "password": "gothboy",
+        "role": "admin",
+        "ID": 5
+    },
+    {
+        "first name": "ggh",
+        "last name": "kl",
+        "phone no.": "1111111",
+        "email": "mkjjk@gmail.com",
+        "password": "123",
+        "role": "admin",
+        "ID": 6
+    }
+]
