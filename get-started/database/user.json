@@ -1,0 +1,29 @@
+[
+    {
+        "First-name": "yaman",
+        "Last-name": "sharma",
+        "Email": "yaman038@gmail.com",
+        "Password": "11",
+        "Number": "9459487003",
+        "Role": "user",
+        "ID": 1
+    },
+    {
+        "First-name": "ishan",
+        "Last-name": "sharma",
+        "Email": "ishant.strixdevelopment@gmail.com",
+        "Password": "ddd",
+        "Number": "9882987003",
+        "Role": "admin",
+        "ID": 2
+    },
+    {
+        "First-name": "ishan",
+        "Last-name": "sharma",
+        "Email": "ishan038@gmail.com",
+        "Password": "qqq",
+        "Number": "9882987003",
+        "Role": "admin",
+        "ID": 3
+    }
+]
