@@ -52,5 +52,14 @@
         "password": "123",
         "role": "admin",
         "ID": 6
+    },
+    {
+        "first name": "ishan@",
+        "last name": "sharma",
+        "phone no.": "9885280107",
+        "email": "ishansharma1@gmail.com",
+        "password": "123",
+        "role": "editor",
+        "ID": 7
     }
 ]
