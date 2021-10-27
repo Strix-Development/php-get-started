@@ -1,0 +1,29 @@
+#services
+{
+    
+    display:flex;
+    flex-direction: column;
+
+    padding:25px ;  
+    height:400px; 
+}
+#services::before
+{
+    content:"";
+    background: darkgray;
+    position: absolute;
+    height:100px;
+    width:100%;
+     z-index:-1;
+    opacity:0.2;
+    height:400px;
+}
+footer
+{
+    background-color: white;
+    color:black;
+    padding:12px;
+    margin-top: 0px 0px;
+    height:100px;
+    text-align: center;
+}
