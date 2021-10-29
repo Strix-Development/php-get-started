@@ -31,7 +31,20 @@
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">User ID</a>
                                 <div class="dropdown-menu dropdown-menu-end bg-dark">
-                                    <a href="get-started/login.php" class="dropdown-item" style="color: white;">Log in</a>
+                                    <?php 
+                                    if(isset($_SESSION['ename'])){
+
+                                        echo '<a href="logout.php" name="logout" id="logout" class="dropdown-item" style="color: white;">Log out</a>';
+                                    }else{
+
+                                        echo '<a href="get-started/login.php" class="dropdown-item" style="color: white;">Log in</a>';
+                                    }
+
+                                   if(isset($_SESSION['ename'])){
+
+                                   echo '<a href="profile.php" name="profile" id="profile" class="dropdown-item" style="color: white;">Profile</a>'; 
+                                }
+                                     ?>
                                 </div>
                             </li>
                         </ul>
