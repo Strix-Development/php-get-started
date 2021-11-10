@@ -1,0 +1,109 @@
+[
+    {
+        "Name": "john",
+        "Surname": "thakur",
+        "PhoneNumber": "8219234556",
+        "Address": " 276\/1\/3 thakur niwas",
+        "EmailID": "kk@gmail.com",
+        "Password": "12",
+        "Education": "post graduate",
+        "Country": "India",
+        "State": "HP"
+    }
+][
+    {
+        "Name": "lucky",
+        "Surname": "kumar",
+        "PhoneNumber": "8219234556",
+        "Address": " 276\/1\/3 thakur niwas",
+        "EmailID": "kumar1@gmail.com",
+        "Password": "12",
+        "Education": "post graduate",
+        "Country": "India",
+        "State": "HP"
+    }
+][
+    {
+        "Name": "lucky",
+        "Surname": "kumar",
+        "PhoneNumber": "8219234556",
+        "Address": " 276\/1\/3 thakur niwas",
+        "EmailID": "kumar1@gmail.com",
+        "Password": "12",
+        "Education": "post graduate",
+        "Country": "India",
+        "State": "HP"
+    }
+][
+    {
+        "Name": "john",
+        "Surname": "doe",
+        "PhoneNumber": "8219234556",
+        "Address": " 276\/1\/3 thakur niwas",
+        "EmailID": "doe123@gmail.com",
+        "Password": "123",
+        "Education": "post graduate",
+        "Country": "India",
+        "State": "HP"
+    }
+][
+    {
+        "Name": "isha",
+        "Surname": "kumari",
+        "PhoneNumber": "8219234556",
+        "Address": " 276\/1\/3 thakur niwas",
+        "EmailID": "is23@gmail.com",
+        "Password": "34",
+        "Education": "post graduate",
+        "Country": "India",
+        "State": "HP"
+    }
+][
+    {
+        "Name": "priyanka",
+        "Surname": "thakur",
+        "PhoneNumber": "8219234556",
+        "Address": " 276\/1\/3 thakur niwas",
+        "EmailID": "thakur12@gmail.com",
+        "Password": "12",
+        "Education": "post graduate",
+        "Country": "India",
+        "State": "HP"
+    }
+][
+    {
+        "Name": "kaku",
+        "Surname": "kumar",
+        "PhoneNumber": "9876543563",
+        "Address": " 345\/23\/14thakur niwas",
+        "EmailID": "kaku@gmail.com",
+        "Password": "13",
+        "Education": "graduiate",
+        "Country": "U.S.A",
+        "State": "Kalifornia"
+    }
+][
+    {
+        "Name": "csdf",
+        "Surname": "thakur",
+        "PhoneNumber": "8219234556",
+        "Address": " 345\/23\/14thakur niwas",
+        "EmailID": "kk@gmail.com",
+        "Password": "12",
+        "Education": "post graduate",
+        "Country": "U.S.A",
+        "State": "Kalifornia"
+    }
+][
+    {
+        "Name": "csdf",
+        "Surname": "thakur",
+        "PhoneNumber": "8219234556",
+        "Address": " 345\/23\/14thakur niwas",
+        "EmailID": "kk@gmail.com",
+        "Password": "12",
+        "Education": "sfsdf",
+        "Country": "U.S.A",
+        "State": "Kalifornia"
+    }
+]

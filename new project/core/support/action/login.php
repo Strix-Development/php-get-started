@@ -1,6 +1,6 @@
 <?php
-//require_once __DIR__."/../../../bootstrap/app.php";
-session_start();
+require_once __DIR__."/../../../bootstrap/app.php";
+//session_start();
 
 // click submit button
 if (isset($_POST['submit']))
@@ -17,7 +17,9 @@ if ($email=='' || $password=='')
 }
 else
 {
-$data = json_decode(file_get_contents('Database/user.json'), true);  //get data
+$data = json_decode(file_get_contents('Database/user.json'), true);  //get dat
+//$dataa = json_encode($data ,JSON_PRETTY_PRINT);
+//print_r($data);
     //print_r($data);
 $filter = array_filter($data, function ($data) 
 {
@@ -31,6 +33,10 @@ if ($data['email'] == $_POST['email'] || ($data['password'] == $_POST['password'
     return $data;
 } 
 });
+
+   
+
+
 if ($filter==true)
 {
     header("Location: ./dashboard.php");

@@ -16,9 +16,9 @@ if (isset($_POST['submit']))
 // empty fields for required message
 if ($fname==''||  $lname==''|| $email=='' || $password=='' || $cpassword=='' || $contact=='' || $selectRole=='')
 {
-    "*fields are required";
+   echo "*fields are required";
 }
-elseif($password != $cpassword)
+elseif($password !== $cpassword)
 {
   echo "*password is not same";
 }
@@ -40,6 +40,22 @@ else
  //json_decode and get data from file
  $file= json_decode(file_get_contents("Database/user.json"), true);   
 
+
+ //ID
+ if (count($file) == 0) {
+  $array['id'] = 1;
+} 
+else
+ {
+  $id = [];
+  foreach ($file as $data_transfer) {
+    array_push($id, $data_transfer['id']);
+    $new_variable = count($id)+1;
+    $array['id'] = $new_variable;
+  }
+}
+
+
  // check email is already register
   $filter = array_filter($file, function ($file) 
   {
@@ -48,23 +64,16 @@ else
     return $file;
   }
   });
-
-
   if (count($filter)) 
   {
     echo "User already registered";
   }
   else
   {
-    //file_put_content:- creat a new file for registerd data
-    $data[] = $array; 
-    //json_encode array and JSON_PRETTY_PRINT-proper line breaks, indentation, white space, and overall structure.
-    $dataa = json_encode($data ,JSON_PRETTY_PRINT);
-
-    //saved data in "./Database/user.json"
-  if(file_put_contents('database/user.json', $dataa)){
-    // echo "registeration is successfull";
-    header("Location:./login.php");
+  $data[] = $array; 
+  $dataa = json_encode($data ,true);
+  if(file_put_contents('database/user.json', $dataa ,JSON_PRETTY_PRINT )){
+  header("Location: ./login.php");
   }
   else
   {

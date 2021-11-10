@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +42,7 @@
                         <div class="dropdown-menu dropdown-menu-end">
                              
 
-                        
+                       <input type ="hidden" name="action" value="login">
                            <?php if(isset($_SESSION['email'])){ ?>
                             <a href="login.php" class="dropdown-item">logout</a> 
                             <a href="profile.php" class="dropdown-item">user profile</a> 
