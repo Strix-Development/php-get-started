@@ -54,3 +54,5 @@
          <p>Copyright © 2019 Design Curtains. All Rights Reserved.</p>
      </div>  
 </section>  
+</body>
+</html>

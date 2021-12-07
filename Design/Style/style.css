@@ -389,3 +389,147 @@ ul li a:hover {
 .header1{
     background-color: whitesmoke;
 }
+@media (max-width:1200px ){
+    .nav ul li {
+        padding: 0 3px;
+        font-size: 14px;
+    }
+    .nav ul {
+        margin-left: 200px;
+    }
+    .image1 img {
+        height: 496px;
+    }
+    .image img {
+        height: 438px;
+    }
+    .image2 img {
+        height: 100%;
+    }
+    .center {
+        margin-top: -8%;
+    }
+    .txt h2 {
+        padding-top: 1%;
+    }
+}
+@media (max-width:1024px ){
+    .nav ul {
+        margin-left: 174px;
+    }
+    .image1 img {
+        height: 538px;
+    }
+    .image img {
+        height: 459px;
+    }
+    .txt h2 {
+        padding-top: 3%;
+    }
+    button.bt {
+        margin-top: 30px;
+    }
+}
+@media (max-width:991px) {
+    .nav ul {
+        margin-left: 20px;
+        margin-top: 24px;
+    }
+    .logo h3 {
+        font-size: 21px;
+    }
+    .leftblock .box p {
+        font-size: 17px;
+    }
+    .leftblock .box h3 {
+        font-size: 20px;
+    }
+    .box1 p {
+        font-size: 17px;
+    }
+    .box1 h3 {
+        font-size: 20px;
+    }
+    .image1 img {
+        height: 560px;
+    }
+    .image img {
+        height: 501px;
+    }
+    .heading2 h4 {
+        font-size: 25px;
+        padding-top: 4%;
+    }
+    .nav ul {
+        margin-left: -57px;
+        margin-top: 22px;
+    }
+    .logo h3 {
+        font-size: 18px;
+        margin-right: 35px;
+    }
+    .image img {
+        height: 361px;
+    }
+    .box1 p {
+        font-size: 12px;
+    }
+    .image1 img {
+        height: 425px;
+    }
+    .leftblock .box p {
+        font-size: 12px;
+    }
+    .box1 h3 {
+        font-size: 15px;
+    }
+    .leftblock .box h3 {
+        font-size: 15px;
+    }
+    .box2 p {
+        font-size: 12px;
+    }
+    .box2 h3 {
+        font-size: 15px;
+    }
+    .span2 {
+        font-size: 25px;
+    }
+    .heading2 h4 {
+        font-size: 20px;
+    }
+    .links h6 {
+        font-size: 18px;
+    }
+    .links1 h6 {
+        font-size: 18px;
+    }
+    .links2 h6 {
+        font-size: 18px;
+    }
+    .content ul {
+        font-size: 15px;
+    }
+    .continfo p {
+        font-size: 15px;
+    }
+    .nav ul {
+        margin-left: 24px;
+        margin-top: 32px;
+    }
+    .logo h3 {
+        font-size: 20px;
+        margin-right: 35px;
+    }
+    .nav ul li {
+        padding: 0 3px;
+        font-size: 14px;
+    }
+    .logo {
+        width: 10%;
+    }
+    .media {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
